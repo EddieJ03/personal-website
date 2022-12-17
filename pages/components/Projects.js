@@ -56,9 +56,9 @@ function Projects() {
                 />
                 <div class="px-6 py-4">
                     <div class="flex flex-row font-bold justify-center gap-5 items-center text-xl mb-2  dark:text-white">
-                        YouNotes
+                        YTNotes
                         <div className="flex justify-center items-center bg-blue-400 h-6 w-6 rounded-full">
-                            <a href="https://github.com/EddieJ03/younotes"><AiFillGithub /></a>
+                            <a href="https://github.com/EddieJ03/ytnotes"><AiFillGithub /></a>
                         </div>
                     </div>
                     <p class="text-gray-700 text-center dark:text-white">
