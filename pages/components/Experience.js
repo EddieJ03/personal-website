@@ -13,9 +13,9 @@ function Experience() {
             </span>
         </h1>
         <div className="flex flex-col justify-center gap-10 py-10 lg:flex-row lg:flex-wrap">
-            {/* <div className="basis-1/3 flex-1 max-w-2xl">
+            <div className="basis-1/3 flex-1 max-w-2xl">
                 <div className="flex flex-col items-center shadow-xl p-10 rounded-xl border-4">
-                    <Image className="mb-3 w-24 h-24 shadow-lg" src={microsoft} />
+                    <Image className="mb-3 w-24 h-24 shadow-lg" src={microsoft} alt="Microsoft Logo" />
                     <h5 class="mb-1 text-xl font-medium text-gray-900 dark:text-white">
                         Software Engineer Intern
                     </h5>
@@ -28,10 +28,10 @@ function Experience() {
                         </li>
                     </ul>
                 </div>
-            </div> */}
+            </div>
             <div className="basis-1/3 flex-1 max-w-2xl">
                 <div className="flex flex-col items-center shadow-xl p-10 rounded-xl border-4">
-                    <Image className="mb-3 w-24 h-24 shadow-lg rounded-full" src={ucsd} />
+                    <Image className="mb-3 w-24 h-24 shadow-lg rounded-full" src={ucsd} alt="UCSD Logo" />
                     <h5 class="mb-1 text-xl font-medium text-gray-900 dark:text-white">
                         Undergraduate Researcher
                     </h5>
@@ -53,7 +53,7 @@ function Experience() {
             </div>
             <div className="basis-1/3 flex-1 max-w-2xl">
                 <div className="flex flex-col items-center shadow-xl p-10 rounded-xl border-4">
-                    <Image className="mb-3 w-24 h-24 shadow-lg" src={mrcooper} />
+                    <Image className="mb-3 w-24 h-24 shadow-lg" src={mrcooper} alt="Mr. Cooper Logo" />
                     <h5 class="mb-1 text-xl font-medium text-gray-900 dark:text-white">
                         Software Engineer Intern
                     </h5>

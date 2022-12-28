@@ -115,10 +115,7 @@ function Projects() {
                     <div class="flex flex-row font-bold justify-center gap-5 items-center text-xl mb-2  dark:text-white">
                         Fusic
                         <div className="flex justify-center items-center bg-blue-400 h-6 w-6 rounded-full">
-                            <a href="https://fusic-app.herokuapp.com/"><AiOutlineLink /></a>
-                        </div>
-                        <div className="flex justify-center items-center bg-blue-400 h-6 w-6 rounded-full">
-                            <a href="https://github.com/EddieJ03/fusic"><AiFillGithub /></a>
+                            <a href="https://github.com/EddieJ03/fusic-mobile"><AiFillGithub /></a>
                         </div>
                     </div>
                     <p class="text-gray-700 text-center dark:text-white">
