@@ -1,7 +1,7 @@
 import React from "react";
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import Image from "next/legacy/image";
-import edward from "../../public/edwardprofile.jpg";
+import edward from "../../public/edwardpic.png";
 
 function Intro({ darkMode, setDarkMode }) {
   return (
