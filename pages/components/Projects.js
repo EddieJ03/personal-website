@@ -4,7 +4,9 @@ import bogglelive from "../../public/bogglelive.png";
 import younotes from "../../public/younotespic.png";
 import sortingvisualizer from "../../public/sortingvisualizer.png";
 import fusicmobile from "../../public/fusic-mobile.jpg";
-import { AiFillGithub, AiOutlineLink } from "react-icons/ai";
+import wrathofzeus from "../../public/entrance_zeus.png";
+import president from "../../public/president.png";
+import { AiFillGithub, AiFillYoutube, AiOutlineLink } from "react-icons/ai";
 
 function Projects() {
   return (
@@ -15,6 +17,100 @@ function Projects() {
         </span>
       </h1>
       <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+        
+      <div className="rounded-xl overflow-hidden shadow-lg basis-1/3 flex-1 border-4">
+          <Image
+            className="rounded-t-lg object-cover max-h-96"
+            width={"100%"}
+            layout="responsive"
+            src={wrathofzeus}
+            alt="Wrath of Zeus Pic"
+          />
+          <div className="px-6 py-4">
+            <div className="flex flex-row font-bold justify-center gap-5 items-center text-xl mb-2  dark:text-white">
+              Wrath of Zeus
+              <div className="flex justify-center items-center bg-blue-400 h-6 w-6 rounded-full">
+                <a href="https://github.com/ucsd-cse125-sp24/group3">
+                  <AiFillGithub />
+                </a>
+              </div>
+                <div className="flex justify-center items-center bg-blue-400 h-6 w-6 rounded-full">  
+                <a href="https://www.youtube.com/watch?v=AMQor-28tAw&t=204s&ab_channel=TheQualcommInstitute">
+                  <AiFillYoutube />
+                </a>
+              </div>
+            </div>
+            <p className="text-gray-700 text-center dark:text-white">
+              A 3-v-1 asymmetric maze escape game where 3 players attempt to escape a maze while Zeus tries to stop them from above.
+            </p>
+            <div className="px-6 pt-4 pb-2 text-center">
+              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                C++
+              </span>
+              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                OpenGL
+              </span>
+              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                GLFW
+              </span><span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                SFML
+              </span>
+              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                CMake
+              </span><span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                Visual Studio
+              </span>
+            </div>
+          </div>
+        </div>
+        
+        <div className="rounded-xl overflow-hidden shadow-lg basis-1/3 flex-1 border-4">
+          <Image
+            className="rounded-t-lg object-cover max-h-96"
+            width={"100%"}
+            layout="responsive"
+            src={president}
+            alt="President Pic"
+          />
+          <div className="px-6 py-4">
+            <div className="flex flex-row font-bold justify-center gap-5 items-center text-xl mb-2  dark:text-white">
+              Who Said It?
+              <div className="flex justify-center items-center bg-blue-400 h-6 w-6 rounded-full">
+                <a href="https://president-classifier.vercel.app/">
+                  <AiOutlineLink />
+                </a>
+              </div>
+              <div className="flex justify-center items-center bg-blue-400 h-6 w-6 rounded-full">
+                <a href="https://github.com/EddieJ03/president-classifier">
+                  <AiFillGithub />
+                </a>
+              </div>
+            </div>
+            <p className="text-gray-700 text-center dark:text-white">
+              A neural network that attempts to classify which President said a short snippet of text!
+            </p>
+            <div className="px-6 pt-4 pb-2 text-center">
+              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                Python
+              </span>
+              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                PyTorch
+              </span>
+              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                Google Colab
+              </span>
+              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                FastAPI
+              </span>
+              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                Docker
+              </span>
+              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                HuggingFace
+              </span>
+            </div>
+          </div>
+        </div>
         <div className="rounded-xl overflow-hidden shadow-lg basis-1/3 flex-1 border-4">
           <Image
             className="rounded-t-lg object-cover max-h-96"

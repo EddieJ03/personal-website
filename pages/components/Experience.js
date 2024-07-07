@@ -31,6 +31,12 @@ function Experience() {
               <li className="mb-2">
                 Current intern on the iOS Infrastructure & Productivity Team working on creating alerts within LinkedIn’s beta iOS app to drive increased usage among LinkedIn employees
               </li>
+              <li className="mb-2">
+                Wrote SQL queries to monitor the increase in beta usage among LinkedIn employees 
+              </li>
+              <li className="mb-2">
+                Frameworks/Technologies used: Objective-C, Swift, SQL, Apache Avro
+              </li>
             </ul>
           </div>
         </div>
@@ -81,7 +87,7 @@ function Experience() {
                 Instrumented the app using Application Insights, ensuring real-time monitoring and collection of 100% of app data
               </li>
               <li className="mb-2">
-                Frameworks/technologies used: Node.js, React.js, TypeScript, Azure Machine Learning, Azure Cosmos DB
+                Frameworks/Technologies used: Node.js, React.js, TypeScript, Azure Machine Learning, Azure Cosmos DB
               </li>
             </ul>
           </div>
