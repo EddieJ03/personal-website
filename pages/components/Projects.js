@@ -21,6 +21,7 @@ function Projects() {
             width={"100%"}
             layout="responsive"
             src={bogglelive}
+            alt="Boggle Live Pic"
           />
           <div className="px-6 py-4">
             <div className="flex flex-row font-bold justify-center gap-5 items-center text-xl mb-2  dark:text-white">
@@ -45,13 +46,12 @@ function Projects() {
                 React.js
               </span>
               <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                Express.js
+                Go
               </span>
               <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                Socket.io
-              </span>
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                Azure
+                Netlify
+              </span><span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                Render
               </span>
               <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
                 CI/CD
@@ -65,6 +65,7 @@ function Projects() {
             width={"100%"}
             layout="responsive"
             src={younotes}
+            alt="ytnotes pic"
           />
           <div className="px-6 py-4">
             <div className="flex flex-row font-bold justify-center gap-5 items-center text-xl mb-2  dark:text-white">
@@ -105,18 +106,55 @@ function Projects() {
               <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
                 Docker
               </span>
+            </div>
+          </div>
+        </div>
+        <div className="rounded-xl overflow-hidden shadow-lg basis-1/3 flex-1 border-4">
+          <Image
+            className="rounded-t-lg object-contain max-h-96"
+            width={"100%"}
+            layout="responsive"
+            src={fusicmobile}
+            alt="fusic mobile pic"
+          />
+          <div className="px-6 py-4">
+            <div className="flex flex-row font-bold justify-center gap-5 items-center text-xl mb-2  dark:text-white">
+              Fusic
+              <div className="flex justify-center items-center bg-blue-400 h-6 w-6 rounded-full">
+                <a href="https://github.com/EddieJ03/fusic-mobile">
+                  <AiFillGithub />
+                </a>
+              </div>
+            </div>
+            <p className="text-gray-700 text-center dark:text-white">
+              Fusic is a fmobile application that integrates Spotify’s API and
+              gives users the ability to make friends and live chat with others
+              that have similar musical tastes!
+            </p>
+            <div className="px-6 pt-4 pb-2 text-center">
               <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                Azure
+                React Native
+              </span>
+              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                Spotify Web API
+              </span>
+              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                Axios
+              </span>
+              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                Firebase
               </span>
             </div>
           </div>
         </div>
+        
         <div className="rounded-xl overflow-hidden shadow-lg basis-1/3 flex-1 border-4">
           <Image
             className="rounded-t-lg object-cover max-h-96"
             width={"100%"}
             layout="responsive"
             src={sortingvisualizer}
+            alt="sorting visualizer pic"
           />
           <div className="px-6 py-4">
             <div className="flex flex-row font-bold justify-center gap-5 items-center text-xl mb-2  dark:text-white">
@@ -147,43 +185,6 @@ function Projects() {
               </span>
               <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
                 JavaScript
-              </span>
-            </div>
-          </div>
-        </div>
-        <div className="rounded-xl overflow-hidden shadow-lg basis-1/3 flex-1 border-4">
-          <Image
-            className="rounded-t-lg object-contain max-h-96"
-            width={"100%"}
-            layout="responsive"
-            src={fusicmobile}
-          />
-          <div className="px-6 py-4">
-            <div className="flex flex-row font-bold justify-center gap-5 items-center text-xl mb-2  dark:text-white">
-              Fusic
-              <div className="flex justify-center items-center bg-blue-400 h-6 w-6 rounded-full">
-                <a href="https://github.com/EddieJ03/fusic-mobile">
-                  <AiFillGithub />
-                </a>
-              </div>
-            </div>
-            <p className="text-gray-700 text-center dark:text-white">
-              Fusic is a fmobile application that integrates Spotify’s API and
-              gives users the ability to make friends and live chat with others
-              that have similar musical tastes!
-            </p>
-            <div className="px-6 pt-4 pb-2 text-center">
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                React Native
-              </span>
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                Spotify Web API
-              </span>
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                Axios
-              </span>
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                Firebase
               </span>
             </div>
           </div>

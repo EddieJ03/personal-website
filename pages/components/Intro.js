@@ -20,7 +20,7 @@ function Intro({ darkMode, setDarkMode }) {
           impactful software and enjoy learning new tools & technologies.
         </h3>
         <a
-          href="https://docs.google.com/document/d/1GTrz2L0TYsHutDn32YJm_jEJqirevZWCAKAZmq24KBE/edit?usp=sharing"
+          href="https://drive.google.com/file/d/1AZh0XIZOOZzUGBWS44C6xN30ERQvq_3s/view"
           className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white bg-blue-400 rounded-lg hover:bg-blue-500 focus:ring-4 focus:ring-blue-300 dark:bg-blue-800 dark:hover:bg-blue-900"
         >
           RESUME
