@@ -2,10 +2,10 @@ import React from "react";
 import Image from "next/image";
 import bogglelive from "../../public/bogglelive.png";
 import younotes from "../../public/younotespic.png";
-import sortingvisualizer from "../../public/sortingvisualizer.png";
 import fusicmobile from "../../public/fusic-mobile.jpg";
 import wrathofzeus from "../../public/entrance_zeus.png";
-import president from "../../public/president.png";
+import president from "../../public/fdr.png";
+import mlplatform from "../../public/mlplatform.png";
 import { AiFillGithub, AiFillYoutube, AiOutlineLink } from "react-icons/ai";
 
 function Projects() {
@@ -17,6 +17,50 @@ function Projects() {
         </span>
       </h1>
       <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+        
+        
+      <div className="rounded-xl overflow-hidden shadow-lg basis-1/3 flex-1 border-4">
+          <Image
+            className="rounded-t-lg object-cover max-h-96"
+            width={"100%"}
+            layout="responsive"
+            src={mlplatform}
+            alt="sorting visualizer pic"
+          />
+          <div className="px-6 py-4">
+            <div className="flex flex-row font-bold justify-center gap-5 items-center text-xl mb-2  dark:text-white">
+              MiniMLPlatform
+              <div className="flex justify-center items-center bg-blue-400 h-6 w-6 rounded-full">
+                <a href="https://github.com/EddieJ03/ml-infra">
+                  <AiFillGithub />
+                </a>
+              </div>
+            </div>
+            <p className="text-gray-700 text-center dark:text-white">
+              A self-hosted machine learning platform you can spin up on Azure using Pulumi!
+            </p>
+            <div className="px-6 pt-4 pb-2 text-center">
+              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                Pulumi
+              </span>
+              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                TypeScript
+              </span>
+              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                Docker
+              </span>
+              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                Kubernetes
+              </span>
+              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                Azure
+              </span>
+              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                Poetry
+              </span>
+            </div>
+          </div>
+        </div>
         
       <div className="rounded-xl overflow-hidden shadow-lg basis-1/3 flex-1 border-4">
           <Image
@@ -74,9 +118,9 @@ function Projects() {
           />
           <div className="px-6 py-4">
             <div className="flex flex-row font-bold justify-center gap-5 items-center text-xl mb-2  dark:text-white">
-              Who Said It?
+              PresGPT2
               <div className="flex justify-center items-center bg-blue-400 h-6 w-6 rounded-full">
-                <a href="https://president-classifier.vercel.app/">
+                <a href="https://president-gpt2-dfbq9judmtpbztdw2o7snp.streamlit.app/">
                   <AiOutlineLink />
                 </a>
               </div>
@@ -87,7 +131,7 @@ function Projects() {
               </div>
             </div>
             <p className="text-gray-700 text-center dark:text-white">
-              A neural network that attempts to classify which President said a short snippet of text!
+              A Transformer Decoder trained on multiple GPUs that completes a sentence like a popular president!
             </p>
             <div className="px-6 pt-4 pb-2 text-center">
               <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
@@ -97,16 +141,10 @@ function Projects() {
                 PyTorch
               </span>
               <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                Google Colab
+                Distributed Training
               </span>
               <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                FastAPI
-              </span>
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                Docker
-              </span>
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                HuggingFace
+                Streamlit
               </span>
             </div>
           </div>
@@ -179,15 +217,6 @@ function Projects() {
             </p>
             <div className="px-6 pt-4 pb-2 text-center">
               <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                HTML
-              </span>
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                CSS
-              </span>
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                JavaScript
-              </span>
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
                 Express.js
               </span>
               <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
@@ -201,6 +230,9 @@ function Projects() {
               </span>
               <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
                 Docker
+              </span>
+              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+                Kubernetes
               </span>
             </div>
           </div>
@@ -239,48 +271,6 @@ function Projects() {
               </span>
               <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
                 Firebase
-              </span>
-            </div>
-          </div>
-        </div>
-        
-        <div className="rounded-xl overflow-hidden shadow-lg basis-1/3 flex-1 border-4">
-          <Image
-            className="rounded-t-lg object-cover max-h-96"
-            width={"100%"}
-            layout="responsive"
-            src={sortingvisualizer}
-            alt="sorting visualizer pic"
-          />
-          <div className="px-6 py-4">
-            <div className="flex flex-row font-bold justify-center gap-5 items-center text-xl mb-2  dark:text-white">
-              Sorting Visualizer
-              <div className="flex justify-center items-center bg-blue-400 h-6 w-6 rounded-full">
-                <a href="https://sort-vis-edward.netlify.app/">
-                  <AiOutlineLink />
-                </a>
-              </div>
-              <div className="flex justify-center items-center bg-blue-400 h-6 w-6 rounded-full">
-                <a href="https://github.com/EddieJ03/SortingVisualizer">
-                  <AiFillGithub />
-                </a>
-              </div>
-            </div>
-            <p className="text-gray-700 text-center dark:text-white">
-              A sorting visualizer built in HTML, CSS, and JavaScript. I
-              implemented the most common sorting algorithms such as Selection
-              sort, Insertion sort, Heap sort, Shellsort, Quicksort and
-              Mergesort.
-            </p>
-            <div className="px-6 pt-4 pb-2 text-center">
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                HTML
-              </span>
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                CSS
-              </span>
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                JavaScript
               </span>
             </div>
           </div>

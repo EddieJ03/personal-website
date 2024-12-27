@@ -29,7 +29,7 @@ export default function Home() {
       </main>
       <footer className="w-100 text-center p-4 bg-white rounded-lg shadow dark:bg-black dark:rounded-none">
           <span className="text-sm text-gray-500 dark:text-gray-400">
-            © 2024 Edward Jin. All Rights Reserved.
+            © 2025 Edward Jin. All Rights Reserved.
           </span>
       </footer>
     </div>
