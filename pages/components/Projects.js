@@ -255,7 +255,7 @@ function Projects() {
               </div>
             </div>
             <p className="text-gray-700 text-center dark:text-white">
-              Fusic is a fmobile application that integrates Spotify’s API and
+              Fusic is a mobile application that integrates Spotify’s API and
               gives users the ability to make friends and live chat with others
               that have similar musical tastes!
             </p>
