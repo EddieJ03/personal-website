@@ -173,7 +173,7 @@ function Projects() {
             </div>
             <p className="text-gray-700 text-center dark:text-white">
               A real-time, two-player version of Boggle online that you can play
-              with friends or family!
+              with friends or family. Enabled real-time game streaming with Kafka.
             </p>
             <div className="px-6 pt-4 pb-2 text-center">
               <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
@@ -183,12 +183,12 @@ function Projects() {
                 Go
               </span>
               <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                Netlify
+                Docker
               </span><span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                Render
+                Kafka
               </span>
               <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                CI/CD
+                Azure Virtual Machine
               </span>
             </div>
           </div>
