@@ -46,7 +46,7 @@ const Experience = () => {
       date: "09/2023 - 12/2024",
       achievements: [
         "Operating Systems (Fall 2023, Fall 2024): Assisted students with Nachos OS implementation in Java",
-        "AI Search & Reasoning (Spring 2024): Led lab sessions and discussions for Python projects including 2048 Solver, Blackjack AI and Sudoku Solver implementations",
+        "AI Search & Reasoning (Spring 2024): Led lab sessions and discussions for Python projects including 2048 Solver, Blackjack AI and Sudoku Solver",
         "Computer Organization (Winter 2024): Provided guidance on C & Assembly programming assignments",
       ],
     },
@@ -56,9 +56,9 @@ const Experience = () => {
       company: "LinkedIn",
       date: "06/2024 - 08/2024",
       achievements: [
-        "Drove 33% increased usage of LinkedIn's beta iOS app among employees through iOS Infrastructure & Productivity Team initiatives",
-        "Setup Hadoop pipelines and wrote SQL queries to build usage analytics dashboards",
-        "Frameworks/Technologies: Objective-C, Hadoop, SQL, Apache Avro",
+        "Spearheaded initiative on the iOS Infrastructure & Productivity Team to build a feature that boosted LinkedIn's beta iOS app usage among employees by 33%",
+        "Setup Hadoop pipelines and crafted SQL queries to develop real-time analytics dashboards to see usage trends of the feature & beta iOS app",
+        "Technologies/Frameworks: Objective-C, Hadoop, SQL, Apache Avro",
       ],
     },
     {
@@ -67,9 +67,9 @@ const Experience = () => {
       company: "Microsoft",
       date: "06/2023 - 08/2023",
       achievements: [
-        "Developed web application for Azure Speech team enabling noise suppression model comparison",
-        "Implemented Application Insights monitoring with 100% data collection coverage",
-        "Frameworks/Technologies: Node.js, React.js, TypeScript, Azure ML, Cosmos DB",
+        "Designed and developed a web application for the Azure Speech team to streamline comparisons across multiple noise suppression models, providing new evaluation insights and reducing manual work by 90%",
+        "Implemented Application Insights monitoring with 100% data collection coverage to ensure health of service",
+        "Technologies/Frameworks: Node.js, React.js, TypeScript, Azure Web Service, Azure ML, Azure Cosmos DB",
       ],
     },
     {
@@ -79,7 +79,7 @@ const Experience = () => {
       date: "06/2022 - 08/2022",
       achievements: [
         "Implemented multiple backend API endpoints using .NET 6.0, MediatR, Aspose, and Entity Framework to automate extracting & storing Excel information into 10+ SQL Server tables, saving the Originations team 50+ hours of manual work per update",
-        "Led the design and development of a navigation UI using React.js, TypeScript, and Material UI to allow for easier navigation between site services",
+        "Led the design and development of a navigation UI using React.js, TypeScript, and Material UI to allow for easier navigation between core site services",
       ],
     },
   ];
