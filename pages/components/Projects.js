@@ -125,7 +125,7 @@ function Projects() {
                 </a>
               </div>
               <div className="flex justify-center items-center bg-blue-400 h-6 w-6 rounded-full">
-                <a href="https://github.com/EddieJ03/president-classifier">
+                <a href="https://github.com/EddieJ03/president-gpt2">
                   <AiFillGithub />
                 </a>
               </div>
