@@ -37,7 +37,7 @@ function Projects() {
               </div>
             </div>
             <p className="text-gray-700 text-center dark:text-white">
-              A self-hosted machine learning platform you can spin up on Azure using Pulumi!
+              A self-hosted machine learning platform you can spin up on Azure using Pulumi.
             </p>
             <div className="px-6 pt-4 pb-2 text-center">
               <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
@@ -131,7 +131,7 @@ function Projects() {
               </div>
             </div>
             <p className="text-gray-700 text-center dark:text-white">
-              A Transformer Decoder trained on multiple GPUs that completes a sentence like a popular president!
+              A Transformer Decoder trained on multiple GPUs that completes a sentence like a popular president.
             </p>
             <div className="px-6 pt-4 pb-2 text-center">
               <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
@@ -213,7 +213,7 @@ function Projects() {
             <p className="text-gray-700 text-center dark:text-white">
               A Chrome Extension that allows you to take time-stamped notes
               while watching a YouTube video. All notes are also stored
-              independently per video!
+              independently per video.
             </p>
             <div className="px-6 pt-4 pb-2 text-center">
               <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
