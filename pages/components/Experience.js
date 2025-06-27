@@ -3,6 +3,7 @@ import mrcooper from "../../public/mrcooperlogo.jpg";
 import microsoft from "../../public/microsoftlogo.png";
 import linkedin from "../../public/linkedin.png";
 import ucsd from "../../public/cseucsd.png";
+import databricks from "../../public/databricks.png";
 import Image from "next/image";
 
 const ExperienceCard = ({ logo, title, company, date, achievements }) => (
@@ -39,6 +40,16 @@ const ExperienceCard = ({ logo, title, company, date, achievements }) => (
 
 const Experience = () => {
   const experiences = [
+    {
+      logo: databricks,
+      title: "Sofrtware Engineer Intern",
+      company: "Databricks",
+      date: "06/2025 - Present",
+      achievements: [
+        "Improving diff testing by building a new service to manage a baseline",
+        "Using Scala, gRPC, and Bazel"
+      ],
+    },
     {
       logo: ucsd,
       title: "Instructional Assistant",
