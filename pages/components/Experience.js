@@ -7,7 +7,7 @@ import databricks from "../../public/databricks.png";
 import Image from "next/image";
 
 const ExperienceCard = ({ logo, title, company, date, achievements }) => (
-  <div className="transform transition-all duration-300 hover:scale-105 rounded-xl overflow-hidden shadow-xl basis-1/3 flex-1 border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800">
+  <div className="flex flex-col h-full w-full transform transition-all duration-300 hover:scale-105 rounded-xl overflow-hidden shadow-xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800">
     <div className="flex flex-col items-center p-8 space-y-4">
       <div className="relative w-24 h-24">
         <Image
@@ -46,7 +46,7 @@ const Experience = () => {
       company: "Databricks",
       date: "06/2025 - Present",
       achievements: [
-        "Improving diff testing by building a new service to manage a baseline",
+        "Building a new service to improve diff testing for all teams across Databricks",
         "Using Scala, gRPC, and Bazel"
       ],
     },
@@ -103,9 +103,22 @@ const Experience = () => {
         </span>
       </h1>
       <div className="py-10 grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-7xl mx-auto">
-        {experiences.map((exp, index) => (
-          <ExperienceCard key={index} {...exp} />
-        ))}
+        {experiences.map((exp, index) => {
+          const isLast = index === experiences.length - 1;
+          const isOdd = experiences.length % 2 === 1;
+          // Center last card if odd, but keep its width the same as others
+          const wrapperClass =
+            isOdd && isLast
+              ? "col-span-1 lg:col-span-2 flex justify-center items-stretch"
+              : "h-full w-full";
+          return (
+            <div key={index} className={wrapperClass}>
+              <div className="w-full max-w-xl h-full flex">
+                <ExperienceCard {...exp} />
+              </div>
+            </div>
+          );
+        })}
       </div>
     </section>
   );
