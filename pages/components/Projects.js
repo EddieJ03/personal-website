@@ -43,10 +43,10 @@ const projects = [
 		tags: ["C++", "OpenGL", "GLFW", "SFML", "CMake", "Visual Studio"],
 	},
 	{
-		title: "Argoverse Autonomous Driving",
+		title: "Argoverse Vehicle Motion Forecasting",
 		image: autonomous,
 		alt: "autonomous pic",
-		description: "An autonomous deep learning project using the Argoverse 2 dataset.",
+		description: "A deep learning project to do vehicle motion forecasting using the Argoverse 2 dataset.",
 		links: [
 			{ icon: <AiFillGithub />, url: "https://github.com/EddieJ03/autonomous-driving/" },
 			{ icon: <AiOutlineLink />, url: "https://github.com/EddieJ03/autonomous-driving/blob/main/report.pdf" },
