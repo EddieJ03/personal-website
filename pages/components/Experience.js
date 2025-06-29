@@ -90,7 +90,6 @@ const Experience = () => {
       date: "06/2022 - 08/2022",
       achievements: [
         "Implemented multiple backend API endpoints using .NET 6.0, MediatR, Aspose, and Entity Framework to automate extracting & storing Excel information into 10+ SQL Server tables, saving the Originations team 50+ hours of manual work per update",
-        "Led the design and development of a navigation UI using React.js, TypeScript, and Material UI to allow for easier navigation between core site services",
       ],
     },
   ];
@@ -102,20 +101,18 @@ const Experience = () => {
           Experience
         </span>
       </h1>
-      <div className="py-10 grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-7xl mx-auto">
-        {experiences.map((exp, index) => {
-          const isLast = index === experiences.length - 1;
+      <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap lg:justify-start">
+        {experiences.map((exp, idx) => {
+          const isLast = idx === experiences.length - 1;
           const isOdd = experiences.length % 2 === 1;
           // Center last card if odd, but keep its width the same as others
-          const wrapperClass =
+          const cardClass =
             isOdd && isLast
-              ? "col-span-1 lg:col-span-2 flex justify-center items-stretch"
-              : "h-full w-full";
+							? "rounded-xl overflow-hidden shadow-lg border-4 basis-1/4 flex-1"
+							: "rounded-xl overflow-hidden shadow-lg basis-1/3 flex-1 border-4";
           return (
-            <div key={index} className={wrapperClass}>
-              <div className="w-full max-w-xl h-full flex">
-                <ExperienceCard {...exp} />
-              </div>
+            <div key={idx} className={cardClass}>
+              <ExperienceCard {...exp} />
             </div>
           );
         })}
