@@ -44,10 +44,10 @@ const Experience = () => {
       logo: databricks,
       title: "Sofrtware Engineer Intern",
       company: "Databricks",
-      date: "06/2025 - Present",
+      date: "06/2025 - 09/2025",
       achievements: [
-        "Building a new service to improve diff testing for all teams across Databricks",
-        "Using Scala, gRPC, and Bazel"
+        "Designed and implemented infrastructure to store & reuse repeated computation during test execution for a testing framework, leading to reduced runtimes and less susceptibility to test flakiness",
+        "Onboarded tests for multiple critical Databricks systems to this infrastructure, cutting runtime for these tests by over 50%",
       ],
     },
     {
