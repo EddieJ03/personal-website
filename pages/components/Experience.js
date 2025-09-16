@@ -67,9 +67,8 @@ const Experience = () => {
       company: "LinkedIn",
       date: "06/2024 - 08/2024",
       achievements: [
-        "Spearheaded initiative on the iOS Infrastructure & Productivity Team to build a feature that boosted LinkedIn's beta iOS app usage among employees by 33%",
-        "Setup Hadoop pipelines and crafted SQL queries to develop real-time analytics dashboards to see usage trends of the feature & beta iOS app",
-        "Technologies/Frameworks: Objective-C, Hadoop, SQL, Apache Avro",
+        "Led the development of an Alert feature to increase LinkedIn's beta iOS app usage among employees by 40%, leading to a 10% increase in issues being reported before production release",
+        "Setup Hadoop pipelines and crafted SQL queries to develop real-time analytics dashboards to see usage trends of the feature & beta iOS app"
       ],
     },
     {
@@ -79,8 +78,7 @@ const Experience = () => {
       date: "06/2023 - 08/2023",
       achievements: [
         "Designed and developed a web application for the Azure Speech team to streamline comparisons across multiple noise suppression models, providing new evaluation insights and reducing manual work by 90%",
-        "Implemented Application Insights monitoring with 100% data collection coverage to ensure health of service",
-        "Technologies/Frameworks: Node.js, React.js, TypeScript, Azure Web Service, Azure ML, Azure Cosmos DB",
+        "Deployed application on Azure Web Service and implemented Application Insights monitoring with 100% data collection coverage to ensure health of service",
       ],
     },
     {
