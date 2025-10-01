@@ -49,12 +49,10 @@ const projects = [
 		description: "A deep learning project to do vehicle motion forecasting using the Argoverse 2 dataset.",
 		links: [
 			{ icon: <AiFillGithub />, url: "https://github.com/EddieJ03/autonomous-driving/" },
-			{ icon: <AiOutlineLink />, url: "https://github.com/EddieJ03/autonomous-driving/blob/main/report.pdf" },
 		],
 		tags: [
 			"Python",
 			"PyTorch",
-			"Attention",
 			"LSTM",
 			"Convolutional Neural Networks",
 			"Jupyter Notebook",
